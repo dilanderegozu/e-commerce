@@ -1,7 +1,7 @@
 const services = require("../services/index");
 const utils = require("../utils/index");
 const { StatusCodes } = require("http-status-codes");
-const baseResponse = require("../dto/baseResponse.dto");
+const baseResponse = require("../dto/baseResponse");
 
 exports.createSale = async (req, res) => {
   try {
